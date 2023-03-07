@@ -1,0 +1,231 @@
+html {
+    /* --border: 2px dotted rgb(0, 0, 0); */
+    --padding: 1em 1em;
+    --margin: 1em 0;
+    --item--margin: 1em auto;
+    --nav__bar: lightblue;
+    --discord--blue: #3161E0;
+    font-size: 20px;;
+}
+body {
+    border: var(--border);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(59, 59, 59);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button {
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 25px;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+.sub-title{
+    font-size: 22em;
+    margin-bottom: 2em;
+}
+
+/* FLEX__BOX__________________________ */
+.flex__container {
+    display: flex;
+    justify-content: center;    
+}
+.flex__item {
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.flex__content {
+    padding:var(--padding)
+}
+.section {
+    background-color: darkgray;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+
+/* HEADER__NAV______________________ */
+#nav__bar {
+    width: 100%;
+    background-color: var(--discord--blue);
+    background-color: ;
+    color: white;
+}
+#nav__bar .flex__item {
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    max-width: 1500px;
+}
+#nav__bar .flex__content > a {
+    margin: 0 1em ;
+}
+#nav__bar .flex__content:first-child {
+    text-align: start;
+}
+#nav__bar .flex__content:nth-child(2) {
+    text-align: center;
+}
+#nav__bar .flex__content:nth-child(3) {
+    text-align: end;
+    color: #535659;
+}
+
+
+
+/* HEADER__SECTION_________________- */
+#header__section {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width: 1906px;
+    height: 497px;
+
+}  
+#header__section .flex__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin:  auto;
+    width: 50%;
+    height:100%;
+    max-width:902px;
+    max-height: 500px;
+}
+
+#header__section h1 ,p {
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+#header__section .flex__content:nth-child(2){
+    gap: 1em;
+}
+
+#header__section button:last-of-type{
+    margin-left: 2em;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* MAIN__SECTION--1 */
+
+#main__section--1 {
+    background-color: white;
+}
+#main__section--1 .flex__item {
+    align-items: flex-start;
+}
+#main__section--1 .flex__content:nth-child(1) {
+}
+#main__section--1 img {
+}
+
+#main__section--1 .flex__content:nth-child(2) {
+    flex-grow: 1;
+    padding-top: 3em;
+}
+
+
+
+/* MAIN__SECTION--2 */
+#main__section--2 {
+}
+#main__section--2 .flex__item {
+    margin: var(--item--margin);
+    width: 1250px;
+    height: 500px;
+}
+#main__section--2 .flex__content:nth-child(1){
+    background-color: grey;
+    flex-grow: 1;
+}
+#main__section--2 .flex__content:nth-child(2){
+    background-color: lightgray;
+    flex-grow: 2;
+}
+
+
+
+/* MAIN__SECTION--3 */
+#main__section--1 {
+}
+#main__section--3 .flex__item {
+    margin: var(--item--margin);
+    width: 1250px;
+    height: 500px;
+}
+#main__section--3 .flex__content:nth-child(1) {
+    background-color: grey;
+    flex-grow:2;
+}
+#main__section--3 .flex__content:nth-child(2) {
+    background-color: lightgray;
+    flex-grow: 1;
+}
+
+
+
+/* MAIN__SECTION--4 */
+#main__section--4 {
+}
+#main__section--4 .flex__item {
+    background-color: antiquewhite;
+    margin: var(--item--margin);
+    width: 1250px;
+    height: 900px;
+}
+
+
+
+/* MAIN__SECTION--5 */
+#main__section--5 {
+}
+#main__section--5 .flex__item {
+    margin: var(--item--margin);
+    width: 1250px;
+    height:500px;
+}
+#main__section--5 .flex__content:nth-child(1){
+    background-color: azure ;
+    flex-grow: 2;
+}   
+#main__section--5 .flex__content:nth-child(2){
+    background-color: pink ;
+    flex-grow: 1;
+}   
+#main__section--5 .flex__content:nth-child(3){
+    background-color: pink ;
+    flex-grow: 1;
+}   
+#main__section--5 .flex__content:nth-child(4){
+    background-color: pink ;
+    flex-grow: 1;
+}   
+#main__section--5 .flex__content:nth-child(5){
+    background-color:pink ;
+    flex-grow: 1;
+}   
