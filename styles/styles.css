@@ -10,7 +10,7 @@ html {
 body {
     border: var(--border);
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(59, 59, 59);
+    background-color: white
 }
 
 * {
@@ -30,8 +30,8 @@ button {
     margin-bottom: 1em;
 }
 .sub-title{
-    font-size: 22em;
-    margin-bottom: 2em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
 /* FLEX__BOX__________________________ */
@@ -134,7 +134,7 @@ button {
 /* MAIN__SECTION--1 */
 
 #main__section--1 {
-    background-color: white;
+    padding:3em;
 }
 #main__section--1 .flex__item {
     align-items: flex-start;
@@ -145,7 +145,6 @@ button {
 }
 
 #main__section--1 .flex__content:nth-child(2) {
-    flex-grow: 1;
     padding-top: 3em;
 }
 
